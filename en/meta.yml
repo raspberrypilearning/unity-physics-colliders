@@ -1,11 +1,9 @@
-title: unity-physics-colliders
+title: Use Box Colliders to stop GameObjects occupying the same space
 hero_image: images/banner.png
-description: unity-physics-colliders description
+description: Use Box Colliders to stop GameObjects occupying the same space
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-11-22"
 steps:
-  - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Use Box Colliders to stop GameObjects occupying the same space
