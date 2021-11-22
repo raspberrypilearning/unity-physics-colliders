@@ -1,0 +1,9 @@
+title: Use Box Colliders to stop GameObjects occupying the same space
+hero_image: images/banner.png
+description: Use Box Colliders to stop GameObjects occupying the same space
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-11-22"
+steps:
+  - title: Use Box Colliders to stop GameObjects occupying the same space
