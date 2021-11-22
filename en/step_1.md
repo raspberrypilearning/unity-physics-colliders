@@ -1,59 +1,13 @@
-## Introduction
+Colliders can be used to apply physics to GameObjects. A 'Box Collider' has a simple cube shape that can be sized and positioned to stop GameObjects occupying the same space. 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+To add a Box Collider, go to 'Add Component' in the Inspector window for your GameObject and select 'Box Collider'. 
 
-### What you will make
+![The Add Component drop down menu with 'box' typed into the search and 'Box Collider' highlighted.](images/component-box.png)
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+Change the values in the 'Center' and 'Size' properties until you are happy that they are above the ground and cover the whole of your GameObject. 
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+![The Box Collider component with values Centre Y = 0.5, Size X = 0.7, Y = 1, and Z = 0.7.](images/cone-properties.png)
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+![The Roadworks Cone model in the Scene view with the green lines of the Box Collider shown to fit in a cube shape around the cone.](images/colider-cone.png)
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+**Tip:** Box Colliders will need to be added to all GameObjects that you want to avoid occupying the same space.
