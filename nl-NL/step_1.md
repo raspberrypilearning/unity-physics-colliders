@@ -1,15 +1,15 @@
-A collider is a shape that is used to detect when a GameObject collides, or intersects, with another GameObject. It’s much quicker for a computer to check for collisions with a simple collider shape than the complex shape of a GameObject.
+Een collider is een vorm die wordt gebruikt om te detecteren wanneer een GameObject botst of een ander GameObject kruist. Het is veel gemakkelijker voor een computer om te controleren op botsingen met een simpele vorm dan op de complexe vorm van een GameObject.
 
-A Box Collider has a simple cube shape that can be sized and positioned to stop GameObjects occupying the same space.
+Een Box Collider heeft een eenvoudige kubusvorm die kan worden aangepast en gepositioneerd om te voorkomen dat GameObjects dezelfde ruimte innemen.
 
-To add a Box Collider, go to **Add Component** in the Inspector window for your GameObject and select **Box Collider**.
+Om een Box Collider toe te voegen, ga je naar **Add Component** in het Inspector-venster voor je GameObject en selecteer je **Box Collider**.
 
-![The Add Component drop-down menu with 'box' typed into the search bar and 'Box Collider' highlighted.](images/component-box.png)
+![Het vervolgkeuzemenu Add Component met 'box' getypt in de zoekbalk en 'Box Collider' gemarkeerd.](images/component-box.png)
 
-Change the values in the 'Center' and 'Size' properties until you are happy that they are above the ground and cover the whole of your GameObject.
+Verander de waarden in de 'Center' en 'Size' eigenschappen totdat je tevreden bent dat ze boven de grond staan en het hele GameObject bedekken.
 
-![The Box Collider component with values Center y = 0.5, Size x = 0.7, y = 1, and z = 0.7.](images/cone-properties.png)
+![De component Box Collider met waarden Center y = 0.5, Size x = 0.7, y = 1 en z = 0.7.](images/cone-properties.png)
 
-![The Roadworks Cone model in the Scene view with the green lines of the Box Collider shown to fit in a cube shape around the cone.](images/colider-cone.png)
+![Het Roadworks Cone-model in de Scene-weergave met de groene lijnen van de Box Collider in een kubusvorm die passen rond de kegel.](images/colider-cone.png)
 
-**Tip:** Box Colliders will need to be added to all GameObjects that you want to avoid occupying the same space.
+**Tip:** Box Colliders moeten worden toegevoegd aan alle GameObjects waarvan je wilt voorkomen dat ze dezelfde ruimte innemen.
