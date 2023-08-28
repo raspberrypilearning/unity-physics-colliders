@@ -1,15 +1,15 @@
-A collider is a shape that is used to detect when a GameObject collides, or intersects, with another GameObject. It’s much quicker for a computer to check for collisions with a simple collider shape than the complex shape of a GameObject.
+Un collider est une forme utilisée pour détecter la collision ou l'intersection d'un GameObject avec un autre GameObject. Il est beaucoup plus rapide pour un ordinateur de vérifier les collisions avec une forme de collision simple qu'avec la forme complexe d'un GameObject.
 
-A Box Collider has a simple cube shape that can be sized and positioned to stop GameObjects occupying the same space.
+Un Box Collider a la forme d'un simple cube qui peut être dimensionné et positionné pour empêcher les GameObjects d'occuper le même espace.
 
-To add a Box Collider, go to **Add Component** in the Inspector window for your GameObject and select **Box Collider**.
+Pour ajouter un Box Collider, va sur **Add Component** dans la fenêtre Inspector de ton GameObject et sélectionne **Box Collider**.
 
-![The Add Component drop-down menu with 'box' typed into the search bar and 'Box Collider' highlighted.](images/component-box.png)
+![Le menu déroulant Add Component avec « box » tapé dans la barre de recherche et « Box Collider » mis en surbrillance.](images/component-box.png)
 
-Change the values in the 'Center' and 'Size' properties until you are happy that they are above the ground and cover the whole of your GameObject.
+Modifie les valeurs des propriétés « Center » et « Size » jusqu'à ce que tu sois satisfait qu'elles soient au-dessus du sol et qu'elles recouvrent l'ensemble de ton GameObject.
 
-![The Box Collider component with values Center y = 0.5, Size x = 0.7, y = 1, and z = 0.7.](images/cone-properties.png)
+![Le composant Box Collider avec les valeurs Center y = 0.5, Size x = 0.7, y = 1, et z = 0.7.](images/cone-properties.png)
 
-![The Roadworks Cone model in the Scene view with the green lines of the Box Collider shown to fit in a cube shape around the cone.](images/colider-cone.png)
+![Le modèle Roadworks Cone dans la vue Scene avec les lignes vertes du Box Collider en forme de cube s'adaptant autour du cône.](images/colider-cone.png)
 
-**Tip:** Box Colliders will need to be added to all GameObjects that you want to avoid occupying the same space.
+**Astuce :** les Box Colliders devront être ajoutés à tous les GameObjects dont tu veux éviter qu'ils n'occupent le même espace.
